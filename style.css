@@ -87,7 +87,40 @@ h1{
 
 .sec2{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    border: solid black;
+    justify-content: center;
+    width:100%;
+    padding: 0 0 75px 0;
+}
+
+.sec2 h2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    margin-top: 30px;
+    padding: 85px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.regText2{
+    color: #4b4b4c;
+    font-size: 19px;
+    font-weight:lighter;
+    width: 170px;
+    padding: 0 20px 0 20px;
+    margin-top: 0;
+}
+
+.sec2 .sec2Inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sec3{
+    background-color: #E5E7EB;
+    width: 100%;
 }
